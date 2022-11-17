@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-    <add id="Harriswebworks_Glossary::glossarys" resource="Harriswebworks_Glossary::glossarys" title="Glossary glossarys" action="harriswebworks_glossary_glossarys/index/index" module="Harriswebworks_Glossary" sortOrder="10"/><add id="Harriswebworks_Glossary::glossarys_list" resource="Harriswebworks_Glossary::glossarys" title="Glossary Objects" action="harriswebworks_glossary_glossarys/index/index" module="Harriswebworks_Glossary" sortOrder="10" parent="Harriswebworks_Glossary::glossarys" dependsOnModule="Harriswebworks_Glossary"/></menu>
+    <add id="Harriswebworks_Glossary::glossarys" resource="Harriswebworks_Glossary::glossarys" title="Glossary glossarys" action="harriswebworks_glossary_glossarys/index/index" module="Harriswebworks_Glossary" sortOrder="10"/><add id="Harriswebworks_Glossary::glossarys_list" resource="Harriswebworks_Glossary::glossarys" title="Glossary Objects" action="harriswebworks_glossary_glossarys/index/index" module="Harriswebworks_Glossary" sortOrder="10" parent="Harriswebworks_Glossary::glossarys" dependsOnModule="Harriswebworks_Glossary"/>
+    <add id="Harriswebworks_Glossary::glossarys_category" resource="Harriswebworks_Glossary::glossarys" title="Glossary Category" action="harriswebworks_glossary_glossarys/index/index" module="Harriswebworks_Glossary" sortOrder="20" parent="Harriswebworks_Glossary::glossarys" dependsOnModule="Harriswebworks_Glossary"/>
+</menu>
 </config>
