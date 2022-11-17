@@ -1,0 +1,14 @@
+<?php
+/** @var \Harriswebworks\Glossary\Block\Hello $block */
+?>
+<?php foreach ($block->getItems() as $item): ?>
+
+<?php $test= $item->getCategory(); ?>
+<?php 
+if($test="Glossary"){
+     echo $item->getTitle(); 
+echo $item->getDescription();
+}
+?>
+
+<?php endforeach; ?>
